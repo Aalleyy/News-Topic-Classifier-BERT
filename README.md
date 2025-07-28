@@ -1,4 +1,4 @@
-# 📰 News Topic Classifier Using BERT
+# News Topic Classifier Using BERT
 
 This project fine-tunes a `bert-base-uncased` transformer model on the AG News dataset to classify news headlines into one of four categories:
 
@@ -58,7 +58,7 @@ F1-Score (weighted): 0.94
 ```bash
 News-Topic-Classifier-BERT/
 │
-├── News-Topic-Classifier-BERT.ipynb          # Model training and evaluation, also contains the cell for Gradio App
+├── News-Topic-Classifier-BERT.ipynb          # Model training and evaluation, also contains Gradio Interface
 ├── saved_model/                              # Final fine-tuned model
 ├── results/                                  # Training logs
 └── README.md                                 # Project documentation
@@ -73,7 +73,7 @@ pip install transformers datasets gradio scikit-learn torch
 
 2. Run the notebook file
    
-3. Run Gradio App from inside the notebook:
+3. Run Gradio App inside the notebook:
 
 ```python
 interface.launch(share=True)
