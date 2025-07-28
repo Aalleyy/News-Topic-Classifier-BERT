@@ -9,12 +9,6 @@ This project fine-tunes a `bert-base-uncased` transformer model on the AG News d
 
 ---
 
-## Demo
- [Live Gradio App](#)  
-_(Link will be available after deploying in Kaggle or locally with `share=True`)_
-
----
-
 ## Project Objectives
 
 - Fine-tune a pretrained BERT model using Hugging Face Transformers
