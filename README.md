@@ -40,13 +40,11 @@ load_dataset("ag_news")
 
 ## Tech Stack
 
-- BERT from 🤗 Hugging Face Transformers
-
+- BERT from Hugging Face Transformers
 - AG News from Hugging Face Datasets
-
 - PyTorch for model training
-
 - Gradio for UI deployment
+
 
 ## Evaluation Metrics
 
@@ -55,34 +53,31 @@ Accuracy: 0.94
 F1-Score (weighted): 0.94
 
 
-### Project Structure
+## Project Structure
 
-`bash
+```bash
 News-Topic-Classifier-BERT/
 │
 ├── News-Topic-Classifier-BERT.ipynb          # Model training and evaluation contains the cell for Gradio Dashboard
 ├── saved_model/                              # Final fine-tuned model
 ├── results/                                  # Training logs
-└── README.md                                 # Project documentation`
+└── README.md                                 # Project documentation
+```
 
-### Usage
+## Usage
 1. Install dependencies
-`bash
-pip install transformers datasets gradio scikit-learn torch`
 
-3. Run training
-bash
-Copy code
-python train.py
-4. Run Gradio App
-bash
-Copy code
-python app.py
-Or inside a notebook:
+```bash
+pip install transformers datasets gradio scikit-learn torch
+```
 
-python
-Copy code
+2. Run the notebook file
+   
+3. Run Gradio App from inside the notebook:
+
+```python
 interface.launch(share=True)
+```
 
 ## Acknowledgements
 - Hugging Face for Transformers and Datasets
