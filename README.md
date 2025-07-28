@@ -48,17 +48,17 @@ load_dataset("ag_news")
 
 ## Evaluation Metrics
 
+```bash
 Accuracy: 0.94
-
 F1-Score (weighted): 0.94
-
+```
 
 ## Project Structure
 
 ```bash
 News-Topic-Classifier-BERT/
 │
-├── News-Topic-Classifier-BERT.ipynb          # Model training and evaluation contains the cell for Gradio Dashboard
+├── News-Topic-Classifier-BERT.ipynb          # Model training and evaluation, also contains the cell for Gradio App
 ├── saved_model/                              # Final fine-tuned model
 ├── results/                                  # Training logs
 └── README.md                                 # Project documentation
